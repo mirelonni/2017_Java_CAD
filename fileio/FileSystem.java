@@ -13,14 +13,14 @@ public final class FileSystem implements IReader, IWriter {
     private FileWriter fileWriter;
 
     public FileSystem(
-            final String inputFile,
-            final String outputFile) throws IOException {
+        final String inputFile,
+        final String outputFile) throws IOException {
         initReader(inputFile);
         initWriter(outputFile);
     }
 
     private void initReader(
-            final String inputFile) throws FileNotFoundException {
+        final String inputFile) throws FileNotFoundException {
         fileReader = new FileReader(inputFile);
     }
 

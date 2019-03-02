@@ -21,8 +21,8 @@ public final class FileReader implements IReader {
 
     private void readLine() throws IOException {
         stringTokenizer = new StringTokenizer(
-                bufferedReader.readLine(),
-                DELIMITER);
+            bufferedReader.readLine(),
+            DELIMITER);
     }
 
     private String nextToken() throws IOException {

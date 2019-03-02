@@ -13,4 +13,9 @@ Types of forms:
 - CIRCLE *xCenter* *yCenter* *radius* #*borderColor* *borderOpacity* #*color* *opacity*
 - POLYGON *N* *xPoint1* *yPoint1* *xPoint2* *yPoint2* ... *xPointN* *yPointN* #*borderColor* *borderOpacity* #*color* *opacity*
 
-In input/ there are several examples on how to format the input text file.
+In ./input/ there are several examples on how to format the input text file.
+
+```bash
+make
+java Main <input.txt>
+```
