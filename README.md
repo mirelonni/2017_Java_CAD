@@ -19,3 +19,4 @@ In ./input/ there are several examples on how to format the input text file.
 make
 java Main <input.txt>
 ```
+dateOfCode : Mar - 2017
